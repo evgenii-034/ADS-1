@@ -9,8 +9,7 @@ return false;
 }
 }
 return true;
-} 
-else
+} else
 return false;
 }
 uint64_t nPrime(uint64_t n) {
