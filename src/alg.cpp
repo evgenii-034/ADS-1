@@ -13,12 +13,10 @@ bool checkPrime(uint64_t value) {
         return false;
 // вставьте код функции
 }
-
 uint64_t nPrime(uint64_t n) {
   int b = 0;
     for (uint64_t i = 2; ; ++i) {
-
-        if (checkPrime(i)) {
+if (checkPrime(i)) {
             ++b;
            if (b == n) {
             return i;
