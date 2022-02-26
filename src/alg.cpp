@@ -9,9 +9,9 @@ return false;
 }
 }
 return true;
-} else
+} 
+else
 return false;
-// вставьте код функции
 }
 uint64_t nPrime(uint64_t n) {
   int b = 0;
@@ -23,7 +23,6 @@ return i;
 }
 }
 }
-// вставьте код функции
 }
 uint64_t nextPrime(uint64_t value) {
 for (uint64_t i = value + 1; ; ++i) {
@@ -31,7 +30,6 @@ if (checkPrime(i)) {
 return i;
 }
 }
- // вставьте код функции
 }
 uint64_t sumPrime(uint64_t hbound) {
 uint64_t summ = 0;
@@ -41,5 +39,4 @@ summ += i;
 }
 }
 return summ;
-// вставьте код функции
 }
